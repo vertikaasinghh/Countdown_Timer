@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Lato",curve;
+    background-image: url("img/sea.jpg");
+}
+
+h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.coming-soon
+{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.countdown
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+}
+
+.day,.hour,.minutes,.seconds
+{
+    font-size: 2rem;
+    align-items: center;
+}
+
+.train
+{
+    height: 40vh;
+}
+
+.date-input 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin: 20px;
+    text-align: center;
+}
+
+.date-input input, .date-input button 
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    width: 20%; 
+    display: block; 
+}
+
+.date-input button 
+{
+    padding: 12px 20px; 
+    margin: 10px;
+
+    font-size: 1rem;
+    font-weight: bold; 
+    color: white; 
+    background-color: #007bff;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.date-input button:hover 
+{
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+#endMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #007bff; /* Customize color as needed */
+}
